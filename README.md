@@ -65,27 +65,10 @@ Endpoint ini digunakan untuk mendaftarkan pengguna baru ke sistem.
 
 # Request Body (JSON):
 
-````json
-{
-    "username": "jonyper",
-    "email": "jonyper@gmail.com",
-    "password": "password123"
-}
-
-
-# Login User
-**Endpoint**: `POST /auth/login`
-
-**Description**:
-Endpoint ini digunakan untuk melakukan login pengguna ke sistem.
-
-# Request Header:
-- **Content-Type**: `application/json`
-
-# Request Body (JSON):
 ```json
 {
-    "username": "jonyper",
-    "password": "password123"
+  "username": "jonyper",
+  "email": "jonyper@gmail.com",
+  "password": "password123"
 }
-````
+```

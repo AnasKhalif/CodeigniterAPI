@@ -31,7 +31,7 @@
 - Migrate database
 
   ```bash
-  php artisan migrate
+  php spark migrate
   ```
 
 - Running app
